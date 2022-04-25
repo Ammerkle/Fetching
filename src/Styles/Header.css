@@ -1,0 +1,80 @@
+ .header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #88CDEB;
+    align-items: center;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.fields{
+    margin: 50px 0px;
+}
+
+.FetchCard_Container{
+    display:flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.profilepic{
+    vertical-align:middle;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color:gray;
+    border-style:outset;
+}
+
+.card{
+    position:flex;
+    width:600px;
+    padding: 20px;
+    max-width:85vw;
+    height:80vh;
+    border-radius:20px;
+    max-width: height 90px;
+    background-position:center;
+    margin-bottom: 5%;
+    box-shadow:0px 18px 53px 0px rgba(0,0,0,.3);
+}
+
+.dogpic{
+    
+    height: 60vh;
+    width:100%;
+    object-fit:contain;
+    background-position:center;
+}
+
+.favorite{
+  position: absolute;
+  left: 35vw;
+}
+
+.discard{
+    position: absolute;
+    right: 5vw;
+  }
+  
+  .matchpic{
+    height: 30vh;
+    width:100%;
+    object-fit:contain;
+    background-position:center;
+}
+
+.matchcard{
+    position:flex;
+    width:400px;
+    padding: 20px;
+    max-width:85vw;
+    height:45vh;
+    border-radius:20px;
+    max-width: height 90px;
+    background-position:center;
+    margin-bottom: 5%;
+    box-shadow:0px 18px 53px 0px rgba(0,0,0,.3);
+    
+}

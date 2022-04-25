@@ -1,0 +1,27 @@
+.card {
+    position:flex;
+    width:600px;
+    padding: 20px;
+    max-width:85vw;
+    height:100vh;
+    border-radius:20px;
+    background-size:cover;
+    background-position:center;
+
+    box-shadow:0px 18px 53px 0px rgba(0,0,0,.3);
+}
+
+.FetchCard_Container{
+    display:flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+
+.dogpic{
+    
+    padding: 1000px;
+    border-radius:20px;
+    object-fit:fill;
+    background-position:center;
+}
